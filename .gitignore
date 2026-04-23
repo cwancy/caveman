@@ -1,0 +1,6 @@
+caveman.egg-info
+caveman_prompt.egg-info
+src/cli/__pycache__
+src/core/__pycache__
+dist
+processed_prompt.txt

@@ -1,0 +1,512 @@
+[[rules]]
+type = "exempt"
+targets = ["code_blocks", "tables"]
+
+[[rules]]
+type = "whitespace"
+ops = [
+    "remove_double_spaces",
+    "remove_leading_spaces",
+    "remove_trailing_spaces",
+    "remove_blank_lines",
+]
+
+[[rules]]
+type = "strip"
+target = "filler_phrases"
+phrases = [
+    "basically",
+    "essentially",
+    "in other words",
+    "as mentioned above",
+    "it is important to note that",
+    "it is worth noting that",
+    "please note that",
+    "needless to say",
+    "as a matter of fact",
+    "for all intents and purposes",
+    "at the end of the day",
+    "at this point in time",
+    "as previously mentioned",
+    "it goes without saying",
+    "for what it is worth",
+    "when all is said and done",
+    "the fact of the matter is",
+    "it should be noted that",
+    "first and foremost",
+    "last but not least",
+    "without further ado",
+    "it is safe to say",
+    "in light of the fact that",
+    "in the event that",
+    "as you may know",
+    "as we all know",
+    "it is no secret that",
+    "suffice it to say",
+    "to be perfectly honest",
+    "to tell the truth",
+    "to be frank",
+    "with that being said",
+    "having said that",
+    "that being said",
+    "all things considered",
+    "at the present time",
+    "in due course",
+    "in the near future",
+    "in the final analysis",
+    "on a daily basis",
+    "for the most part",
+    "to a certain extent",
+    "in a manner of speaking",
+    "so to speak",
+    "more or less",
+    "as it were",
+]
+
+[[rules]]
+type = "substitution"
+from = "and"
+to = "&"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "you must always"
+to = "always"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "you should always"
+to = "always"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "you must never"
+to = "never"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "you should never"
+to = "never"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "make sure to"
+to = "ensure"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "make sure that"
+to = "ensure"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in order to"
+to = "to"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in order for"
+to = "for"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "is able to"
+to = "can"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "are able to"
+to = "can"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "is not able to"
+to = "cannot"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "are not able to"
+to = "cannot"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "due to the fact that"
+to = "because"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "owing to the fact that"
+to = "because"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "on account of the fact that"
+to = "because"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "a wide range of"
+to = "many"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "a large number of"
+to = "many"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "a great deal of"
+to = "much"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "a significant amount of"
+to = "much"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "including but not limited to"
+to = "including"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in the context of"
+to = "in"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "with regard to"
+to = "regarding"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "with respect to"
+to = "regarding"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in relation to"
+to = "regarding"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "prior to"
+to = "before"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "subsequent to"
+to = "after"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in addition to"
+to = "besides"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "as well as"
+to = "&"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in spite of"
+to = "despite"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in the event that"
+to = "if"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "on the condition that"
+to = "if"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "provided that"
+to = "if"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in the absence of"
+to = "without"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "at the present time"
+to = "now"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "at this point in time"
+to = "now"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in the near future"
+to = "soon"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "on a regular basis"
+to = "regularly"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "on a daily basis"
+to = "daily"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in a timely manner"
+to = "promptly"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in an effective manner"
+to = "effectively"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in a clear manner"
+to = "clearly"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "clearly and directly"
+to = "clearly"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "clean, readable, and well-structured"
+to = "clean & readable"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "utilize"
+to = "use"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "utilise"
+to = "use"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "demonstrate"
+to = "show"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "indicate"
+to = "show"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "facilitate"
+to = "help"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "terminate"
+to = "end"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "commence"
+to = "start"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "endeavour"
+to = "try"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "endeavor"
+to = "try"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "sufficient"
+to = "enough"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "additional"
+to = "more"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "numerous"
+to = "many"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "frequently"
+to = "often"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "subsequently"
+to = "then"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "previously"
+to = "before"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "currently"
+to = "now"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "approximately"
+to = "~"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "therefore"
+to = "->"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "thus"
+to = "->"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "however"
+to = "but"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "although"
+to = "though"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "nevertheless"
+to = "still"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "nonetheless"
+to = "still"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "in conclusion"
+to = "finally"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "to summarize"
+to = "summary:"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "to summarise"
+to = "summary:"
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "—"
+to = "-"
+case_insensitive = false
+
+[[rules]]
+type = "substitution"
+from = "–"
+to = "-"
+case_insensitive = false
+
+[[rules]]
+type = "substitution"
+from = "make sure to"
+to = ""
+case_insensitive = true
+
+[[rules]]
+type = "substitution"
+from = "make sure that"
+to = "ensure"
+case_insensitive = true
+
+[[rules]]
+type = "deduplicate"
+scope = "sentences"
