@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install build
+          pip install -e .
+
+      - name: Build
+        run: python -m build
+
+      # - name: Run tests
+      #   run: python -m pytest tests/ -v
